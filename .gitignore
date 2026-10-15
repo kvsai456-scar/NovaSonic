@@ -1,0 +1,33 @@
+﻿# Gradle and build files
+.gradle/
+**/build/
+.kotlin/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Generated application files
+*.apk
+*.aab
+*.hprof
+captures/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+google-services.json
+.env
+.env.*
+
+# Windows and macOS temporary files
+Thumbs.db
+.DS_Store
+*.log
